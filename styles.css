@@ -1,0 +1,134 @@
+@font-face{
+	font-family: 'opensans';
+	src: url('FONTS/OpenSans.eot');
+	src: url('FONTS/OpenSans.eot?#iefix') format('embedded-opentype'),
+	     url('FONTS/OpenSans.woff') format('woff'),
+	     url('FONTS/OpenSans.ttf') format('truetype'),
+	     url('FONTS/OpenSans.svg#webfont') format('svg');
+}
+
+@font-face{
+	font-family: 'foolish';
+	src: url('FONTS/foolish-font.woff') format('woff'), url('FONTS/foolish-font.woff2') format('woff2');
+}
+
+body,html{
+	width:100%;
+	background-color:#fde4f2;
+}
+
+*{
+	align-items:center;
+	margin:0;
+}
+
+.navbar{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	width: 100%;
+	overflow: none;
+	background-color: #e68bbe;
+}
+
+.navbar a{
+	color: white;
+	background-color: #e68bbe;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	background-color: #f4b8da;
+}
+
+.navbar-item{
+	text-align: center;
+	display: inline;
+	float: inherit;
+	background-color: #a6c2c9;
+	vertical-align: middle;
+	color: white;
+}
+
+.active{
+	background-color: #f4b8da;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	margin: 0;
+	width: auto;
+	display: none;
+	position: fixed;
+	background-color: #f9f9f9;
+	overflow: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+	text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdown-content a{
+	color: #000000;
+	padding: 0;
+}
+
+.dropdown-content a:hover{
+	color: white;
+	padding: 0;
+}
+
+h1{
+	padding:30px;
+	font-size: 50px;
+	text-align: center;
+	font-family:verdana;
+	margin:0;
+  text-shadow: -1px -1px #211, 1px -1px #211, -1px 1px #211, 1px 1px #211;
+}
+
+h2{
+	padding:0px;
+	font-size: 32px;
+	text-align:center;
+	margin:0;
+}
+
+h3{
+	padding:0px;
+	font-size:20px;
+	text-align:center;
+	margin:0;
+}
+
+table{
+	width:80%;
+}
+
+th{
+	width:50%;
+	height:100%;
+}
+
+td{
+	width:50%;
+	height:100%;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
